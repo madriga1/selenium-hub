@@ -1,9 +1,9 @@
 #!/bin/bash
 
-ROOT=/opt/selenium
-CONF=$ROOT/config.json
+SELDIR=/opt/selenium
+CONF=$SELDIR/config.json
 
-/opt/bin/generate_config >$CONF
+$SELDIR/generate_config >$CONF
 
 echo "starting selenium hub with configuration:"
 cat $CONF
