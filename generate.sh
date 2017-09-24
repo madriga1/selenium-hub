@@ -1,7 +1,6 @@
 #!/bin/bash
-VERSION=$1
-NAMESPACE=$2
-AUTHORS=$3
+NAMESPACE=$1
+AUTHORS=$2
 
 echo "# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!" > ./Dockerfile
 echo "# NOTE: DO *NOT* EDIT THIS FILE.  IT IS GENERATED." >> ./Dockerfile
