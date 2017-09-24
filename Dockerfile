@@ -2,8 +2,8 @@
 # NOTE: DO *NOT* EDIT THIS FILE.  IT IS GENERATED.
 # PLEASE UPDATE Dockerfile.txt INSTEAD OF THIS FILE
 # !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-FROM /base:
-LABEL authors=
+FROM madriga1/selenium-base/base:latest
+LABEL authors=madriga1@msn.com
 
 USER seluser
 ENV SELPATH=/opt/selenium
